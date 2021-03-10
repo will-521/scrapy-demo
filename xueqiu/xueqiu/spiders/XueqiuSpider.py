@@ -4,11 +4,11 @@ log = logging.getLogger()
 class XueqiuSpider(scrapy.Spider):
     name = 'xueqiuSpider'
     # start_urls = [
-    #     # 'https://xueqiu.com/service/v5/stock/screener/quote/list?page=1&size=30&order=desc&orderby=percent&order_by=percent&market=CN&type=sh_sz'
+    #     'https://xueqiu.com/service/v5/stock/screener/quote/list?page=1&size=30&order=desc&orderby=percent&order_by=percent&market=CN&type=sh_sz'
     # ]
 
     def start_requests(self):
-        req = 'https://xueqiu.com/service/v5/stock/screener/quote/list?page={}&size=30&order=desc&orderby=percent&order_by=percent&market=CN&type=sh_sz'
+        req = 'https://xueqiu.com/service/v5/stock/screener/quote/list?page={}&size=90&order=desc&orderby=percent&order_by=percent&market=CN&type=sh_sz'
         for i in range(1, 150):
             sleepTime = random.randint(1,5)
             log.debug(sleepTime)
