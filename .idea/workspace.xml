@@ -1,14 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6795d0ea-2af9-4a9d-8005-56ba384145b1" name="Default Changelist" comment="行情数据抓取器初始化">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/danjuanfundscrawl/danjuanfundscrawl/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/danjuanfundscrawl/danjuanfundscrawl/pipelines.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/SoftwareDevelopTools/maven3.6.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../SoftwareDevelopTools/maven3.6.3" />
         <option name="userSettingsFile" value="D:\SoftwareDevelopTools\maven3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1oyNTx9sFNwYNX37n7b9W7SGdcI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my-repository\scrapy-quote-data\xueqiuindex" />
+      <recent name="D:\my-repository\scrapy-quote-data\xueqiu" />
+      <recent name="D:\my-repository\scrapy-quote-data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="entrypoint" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="scrapy-quote-data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cyh98\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiuindex" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xueqiuindex/entrypoint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapy-quote-data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xueqiuindex/xueqiuindex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\my-repository\scrapy-quote-data\xueqiuindex\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6795d0ea-2af9-4a9d-8005-56ba384145b1" name="Default Changelist" comment="" />
+      <created>1614254881568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614254881568</updated>
+      <workItem from="1614254883255" duration="183000" />
+      <workItem from="1615208598517" duration="257000" />
+      <workItem from="1623898594971" duration="5639000" />
+      <workItem from="1624156898192" duration="1840000" />
+    </task>
+    <task id="LOCAL-00001" summary="行情数据抓取器初始化">
+      <created>1614255046144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614255046144</updated>
+    </task>
+    <task id="LOCAL-00002" summary="行情数据抓取器初始化">
+      <created>1614255059752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614255059752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="行情数据抓取器初始化">
+      <created>1624156931469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624156931469</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="行情数据抓取器初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="行情数据抓取器初始化" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1229" y="283" key="FileChooserDialogImpl" timestamp="1623923869477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1229" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623923869477" />
+    <state width="1877" height="482" key="GridCell.Tab.0.bottom" timestamp="1623923871368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="482" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623923871368" />
+    <state width="1877" height="482" key="GridCell.Tab.0.center" timestamp="1623923871367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="482" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623923871367" />
+    <state width="1877" height="482" key="GridCell.Tab.0.left" timestamp="1623923871367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="482" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623923871367" />
+    <state width="1877" height="482" key="GridCell.Tab.0.right" timestamp="1623923871368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="482" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623923871368" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/scrapy_quote_data$main.coverage" NAME="main Coverage Results" MODIFIED="1623907047728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xueqiuindex/xueqiuindex" />
   </component>
 </project>
