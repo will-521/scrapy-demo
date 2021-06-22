@@ -26,13 +26,19 @@ class DanjuanfundscrawlPipeline:
     @staticmethod
     def process_item(item, spider):
         log.debug("--------------------start-------------------------")
-        uid = str(uuid.uuid4())
-        suid = ''.join(uid.split('-'))
-        item['id'] = suid
-        now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        item['createTime'] = now
-        item['updateTime'] = now
-        result = json.dumps(item)
-        es.index('test_index',  result, id=suid)
+        try:
+            uid = str(uuid.uuid4())
+            suid = ''.join(uid.split('-'))
+            item['id'] = suid
+            now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+            item['createTime'] = now
+            item['updateTime'] = now
+            item['yield'] = float(item['yield'])
+            item['unit_nav'] = float(item['unit_nav'])
+            item['yield'] = float(item['yield'])
+            es.index('test_index',  item, id=suid)
+        except BaseException:
+            log.error("异常了异常了。。。。")
+            pass
         log.debug("--------------------end-------------------------")
         pass

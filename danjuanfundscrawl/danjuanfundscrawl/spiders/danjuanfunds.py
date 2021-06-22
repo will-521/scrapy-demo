@@ -13,8 +13,10 @@ class DanjuanfundsSpider(scrapy.Spider):
     page = 1
 
     def start_requests(self):
-        for fundType in [1]:
-            url = baseURL + '/djapi/v3/filter/fund?type=' + str(fundType) + '&order_by=1m&size=20&page=' + str(self.page)
+        # for fundType in [1, 2, 3, 5, 11]:
+        for fundType in [1, 2, 3, 5, 11]:
+            url = baseURL + '/djapi/v3/filter/fund?type=' + str(fundType) + '&order_by=1m&size=20&page=' + str(
+                self.page)
             yield scrapy.Request(url=url, callback=self.parse, meta={"fundTypes": {"fundType": fundType}})
 
     def parse(self, response):
@@ -34,7 +36,7 @@ class DanjuanfundsSpider(scrapy.Spider):
         if self.page <= total_pages:
             self.page += 1
             yield scrapy.Request(
-                url=baseURL + '/djapi/v3/filter/fund?type=' + str(fundType) + '&order_by=1m&size=1&page=' + str(
+                url=baseURL + '/djapi/v3/filter/fund?type=' + str(fundType) + '&order_by=1m&size=20&page=' + str(
                     self.page),
                 callback=self.parse,
                 meta={"fundTypes": {"fundType": fundType}}

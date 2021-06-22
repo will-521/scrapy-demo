@@ -108,4 +108,4 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-RANDOM_DELAY = 3
+RANDOM_DELAY = 2
